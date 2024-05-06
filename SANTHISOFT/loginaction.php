@@ -3,7 +3,7 @@
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE');
 header("Access-Control-Allow-Headers: X-Requested-With");
-include ("config.php");
+// include ("config.php");
 
 
 $request = file_get_contents("php://input");
